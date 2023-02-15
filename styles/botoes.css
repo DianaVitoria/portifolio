@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
 }
+.link-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #b0b4f3;
+    text-decoration: none;
+}
+.link-menu:hover{
+    color: #f6f6f6;
+}
 
 .apresentacao-links{
     display: flex;
@@ -19,7 +29,7 @@
     font-size: 24px;
 }
 .links-link {
-   border: 2px solid #22d4fd; 
+   border: 2px solid #b0b4f3; 
    display: flex;
    justify-content: center;
    gap: 5px;
@@ -34,7 +44,14 @@
    font-size: 24px;
 }
 
-/*.links-link:hover{
-    background-color: #22d4fd;
-}*/
+.links-link:hover{
+    transform: scale(1.25, 1.25);
+}
+
+
+.apresentacao-texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
 
